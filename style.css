@@ -1,6 +1,6 @@
 @import url("https://rsms.me/inter/inter.css");
 
-body{
+body {
   font-family: "Inter";
   margin: auto;
   padding: 0;
@@ -9,50 +9,54 @@ body{
   color: #251938;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 8px 0;
 }
 
-h1{
+h1 {
   font-weight: 800;
   font-size: 48px;
 }
 
-h2{
+h2 {
   font-weight: 700;
   font-size: 36px;
 }
 
-h3{
+h3 {
   font-weight: 400;
   font-size: 32px;
 }
 
-h4{
+h4 {
   font-weight: 600;
   font-size: 28px;
 }
 
-h5{
+h5 {
   font-weight: 500;
   font-size: 24px;
 }
 
-h6{
+h6 {
   font-weight: 700;
   font-size: 14px;
 }
 
-p{
-
+p {
 }
 
-.card-wrapper{
+.card-wrapper {
   display: flex;
   flex-direction: row;
 }
 
-.card{
+.card {
   padding: 16px 40px 16px 40px;
   border-radius: 6px 10px 10px 10px;
   border: 2px solid #000000;
@@ -61,39 +65,38 @@ p{
   margin: 12px;
 }
 
-ul{
+ul {
   padding-left: 36px;
 }
 
-li{
+li {
   list-style: none;
   padding-bottom: 12px;
 }
 
-li::before{
- content: '';
- width: 24px;
- height: 24px;
- margin-left: -36px;
- margin-top: 4px;
- position: absolute;
- background-image: url('tick.png');
- background-size: cover;
+li::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: -36px;
+  margin-top: 4px;
+  position: absolute;
+  background-image: url("tick.png");
+  background-size: cover;
 }
 
-
-.gray{
-  color: #837D8D;
+.gray {
+  color: #837d8d;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
-.ptop-large{
+.ptop-large {
   padding-top: 120px;
 }
 
-.pbottom-medium{
+.pbottom-medium {
   padding-bottom: 80px;
 }
